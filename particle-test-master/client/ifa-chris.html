@@ -1,0 +1,34 @@
+<!-- https://build.particle.io/build/59b935c98a1f00b62400102b -->
+<!-- Example docs : https://docs.particle.io/guide/getting-started/examples/photon/ -->
+
+<!DOCTYPE>
+<html>
+  <head>
+    <title>Turn the light on / off</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  </head>
+  <body>
+  <center>
+  <ul id="monsocket"></ul>
+  <br>
+  <br>
+  <br>
+  <form action="https://api.particle.io/v1/devices/1b0031001347343438323536/led?access_token=d33456a70256534f4a6a8db69b548d3d2e9079d2" method="POST">
+    Tell your device what to do!<br>
+    <br>
+    <input type="radio" name="args" value="on">Turn the LED on.
+    <br>
+    <input type="radio" name="args" value="off">Turn the LED off.
+    <br>
+    <br>
+    <input type="submit" value="Do it!">
+    <br>
+    <br>
+    <br>
+    <br>
+    <button><a href="client/events-stream.html">Events stream</a></button>
+  </form>
+  </center>
+  </body>
+</html>

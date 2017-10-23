@@ -1,0 +1,30 @@
+{
+  "name": "particle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "chart.js": "^2.7.0",
+    "chartjs": "^0.3.24",
+    "express": "^4.15.4",
+    "mongoose": "^4.11.12",
+    "nodemon": "^1.12.1",
+    "particle-api-js": "^6.6.2",
+    "socket.io": "^2.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zouichi/particle-test.git"
+  },
+  "author": "rémi boiteux",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zouichi/particle-test/issues"
+  },
+  "homepage": "https://github.com/Zouichi/particle-test#readme"
+}
